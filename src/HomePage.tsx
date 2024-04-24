@@ -9,7 +9,7 @@ type Props = {
 const HomePage: FunctionComponent<Props> = () => {
   return (
     <div>
-      <h3>Log in using GitHub in order to use arcshare</h3>
+      <h3>Log in using GitHub in order to use dendro-arc</h3>
       <LoginButton />
     </div>
   )

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const clientId = import.meta.env.VITE_GITHUB_CLIENT_ID;
-const redirectUri = 'https://arcshare-auth.vercel.app/api/auth';
+const redirectUri = 'https://dendro-arc-auth.vercel.app/api/auth';
 export const loginUrl = `https://github.com/login/oauth/authorize?client_id=${clientId}&redirect_uri=${redirectUri}&scope=repo`;
 
 const LoginButton: React.FC = () => (
